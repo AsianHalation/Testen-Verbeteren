@@ -23,11 +23,11 @@
      */
     if(($year % 400 == 0) || (($year % 100 != 0) && ($year % 4 == 0)))
     {
-        echo "$year is een schrikkeljaar.";
+        print "$year is een schrikkeljaar.";
     }
     else
     {
-        echo "$year is geen schrikkeljaar.";
+        print "$year is geen schrikkeljaar.";
     }
 
     ?>
